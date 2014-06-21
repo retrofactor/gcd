@@ -1,5 +1,6 @@
-gcd
-===
+run_analysis.R 
+==============
+
 The run_analysis.R script performs all the steps of the analysis as requested in the task description.
 
 First, training and test sets for features, subjects and activities are combined.
