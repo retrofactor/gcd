@@ -14,7 +14,7 @@ sset <- rbind(strainset, stestset)
 ytrainset <- read.table('UCI HAR Dataset/train/y_train.txt')
 ytestset <- read.table('UCI HAR Dataset/test/y_test.txt')
 yset <- rbind(ytrainset, ytestset)
-activity_labels <- t(read.table('UCI HAR Dataset/activity_labels.txt'))[2,] # Use descriptive activity names to name the activities in the data set.
+activity_labels <- t(read.table('UCI HAR Dataset/activity_labels.txt'))[2,]
 yset$afact <- factor(yset$V1, labels=activity_labels)
 
 # merges features, subjects and activities
