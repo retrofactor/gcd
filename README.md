@@ -1,4 +1,4 @@
-run_analysis.R Script Description
+Analysis Script Description
 =================================
 
 The run_analysis.R script performs all the steps of the analysis as requested in the task description.
